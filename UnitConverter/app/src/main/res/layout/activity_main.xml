@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/tempBtn"
+        android:layout_width="186dp"
+        android:layout_height="104dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/temperature" />
+
+    <ImageButton
+        android:id="@+id/weightBtn"
+        android:layout_width="186dp"
+        android:layout_height="104dp"
+        android:layout_below="@+id/tempBtn"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/weight" />
+
+    <ImageButton
+        android:id="@+id/volBtn"
+        android:layout_width="186dp"
+        android:layout_height="104dp"
+        android:layout_below="@+id/lenBtn"
+        android:layout_marginStart="21dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="34dp"
+        android:layout_toEndOf="@+id/weightBtn"
+        android:layout_toRightOf="@+id/weightBtn"
+        android:background="@drawable/volume" />
+
+    <ImageButton
+        android:id="@+id/currBtn"
+        android:layout_width="186dp"
+        android:layout_height="104dp"
+        android:layout_below="@+id/weightBtn"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/currency" />
+
+    <ImageButton
+        android:id="@+id/speedBtn"
+        android:layout_width="186dp"
+        android:layout_height="104dp"
+        android:layout_below="@+id/currBtn"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/speed" />
+
+    <ImageButton
+        android:id="@+id/lenBtn"
+        android:layout_width="186dp"
+        android:layout_height="104dp"
+        android:layout_alignStart="@+id/tempBtn"
+        android:layout_alignLeft="@+id/tempBtn"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="209dp"
+        android:layout_marginLeft="209dp"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/length" />
+
+    <ImageButton
+        android:id="@+id/timeBtn"
+        android:layout_width="186dp"
+        android:layout_height="104dp"
+        android:layout_below="@+id/volBtn"
+        android:layout_marginStart="17dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="22dp"
+        android:layout_toEndOf="@+id/currBtn"
+        android:layout_toRightOf="@+id/currBtn"
+        android:background="@drawable/time" />
+
+</RelativeLayout>
