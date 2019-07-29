@@ -13,72 +13,72 @@ public class Currency {
 
 
     // change from EGP
-    public double changeEGPtoUSD()
+    public float changeEGPtoUSD()
     {
-        return currency*16.62;
+        return currency/16.62f;
     }
 
-    public double changeEGPtoEUR()
+    public float changeEGPtoEUR()
     {
-        return currency*18.65;
+        return currency/18.65f;
     }
 
-    public double changeEGPtoGBP()
+    public float changeEGPtoGBP()
     {
-        return currency*20.78;
+        return currency/20.78f;
     }
 
 
     // change from USD
-    public double changeUSDtoEGP()
+    public float changeUSDtoEGP()
     {
-        return currency/16.62 ;
+        return currency*16.62f ;
     }
 
-    public double changeUSDtoEUR()
+    public float changeUSDtoEUR()
     {
-        return currency*0.891213 ;
+        return currency*0.891213f ;
     }
 
-    public double changeUSDtoGBP()
+    public float changeUSDtoGBP()
     {
-        return currency*0.799977 ;
+        return currency*0.799977f ;
     }
 
 
     // change from EUR
 
-    public double changeEURtoEGP()
+    public float changeEURtoEGP()
     {
-        return currency/18.65;
+        return currency * 18.65f;
     }
 
-    public double changeEURtoUSD()
+    public float changeEURtoUSD()
     {
-        return currency/0.891213;
+        return currency/0.891213f;
     }
 
-    public double changeEURtoGBP()
+    public float changeEURtoGBP()
     {
-        return currency*0.897676;
+        return currency*0.897676f;
     }
 
 
     // change from GBP
 
-    public double changeGBPtoEGP()
+    public float changeGBPtoEGP()
     {
-        return currency/20.78 ;
+        return currency*20.78f ;
     }
 
-    public double changeGBPtoUSD()
+    public float changeGBPtoUSD()
     {
-        return currency/0.799977;
+        return currency/0.799977f;
     }
 
-    public double changeGBPtoEUR()
+    public float changeGBPtoEUR()
     {
-        return currency/0.897676 ;
+        return currency/0.897676f ;
     }
 
 }

@@ -20,7 +20,7 @@ public class Speed {
 
     public double convertMETER_SECtoMILE_HOUR()
     {
-        return (speed*3600)/1000;
+        return speed*2.237f;
     }
 
     public double convertMETER_SECtoFEET_MIN()

@@ -11,15 +11,11 @@ public class TimeZone {
         this.time = time ;
     }
 
-    public float convertnewyorktimetolondontime(){
-        return time + 5.0f ;
-    }
+    public float convertnewyorktimetolondontime(){ return time + 5.0f ; }
 
-    public float convertlondontimetonewyork(){
-        return time - 5.0f ;
-    }
+    public float convertlondontimetonewyork(){ return time - 5.0f ; }
 
-    public float  convertlondontimetocairotime(){
+    public float convertlondontimetocairotime(){
         return time + 1.0f ;
     }
 
@@ -47,10 +43,7 @@ public class TimeZone {
         return time + 2.0f  ;
     }
 
-    public float convertmoscowtolondon(){
-        return time - 2.0f ;
-    }
-
+    public float convertmoscowtolondon(){ return time - 2.0f ; }
 
     public float convertnewyorktomoscow(){
         return time + 7.0f  ;

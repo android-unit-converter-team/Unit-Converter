@@ -19,7 +19,7 @@
         android:layout_marginTop="12dp"
         android:ellipsize="end"
         android:ems="10"
-        android:inputType="number"
+        android:inputType="numberDecimal"
         android:maxLines="1"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="24sp" />
@@ -120,6 +120,20 @@
         android:layout_marginLeft="97dp"
         android:layout_marginTop="185dp"
         android:gravity="center"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/convetrtBtn"
+        android:layout_width="423dp"
+        android:layout_height="76dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="-12dp"
+        android:layout_marginLeft="-12dp"
+        android:layout_marginTop="656dp"
+        android:background="@color/colorAccent"
+        android:text="Convert"
+        android:textColor="@color/colorPrimaryDark"
         android:textSize="24sp" />
 
 </RelativeLayout>

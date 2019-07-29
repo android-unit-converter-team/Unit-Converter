@@ -34,4 +34,34 @@ public class Temperature {
     public float convertKelvinToFahrenheit(){
         return (float) (convertCelsiusToFahrenheit() - 273.15);
     }
+
+    public  float convertrankineToFahrenheit()
+    {
+        return  (float) temprature * -458.67f;
+    }
+
+    public  float convertFahrenheitTorankine()
+    {
+        return  (float) temprature / -458.67f;
+    }
+
+    public  float convertcelsiusTorankine()
+    {
+        return  (float) temprature / -272.594f;
+    }
+
+    public  float convertrankineTocelsius()
+    {
+        return  (float) temprature * -272.594f;
+    }
+
+    public  float convertkelvinTorankine()
+    {
+        return  (float) temprature / 0.555556f;
+    }
+
+    public  float convertrankineTokelvin()
+    {
+        return  (float) temprature * 0.555556f;
+    }
 }
